@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@deno/mod.js';
+import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@v0.0.1-deno/mod.js';
 ```
 
 #### nansLike( x\[, dtype] )
@@ -99,7 +99,7 @@ var arr = nansLike( x, 'float32' );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-float-dtypes@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@deno/mod.js';
-import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@deno/mod.js';
+import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@v0.0.1-deno/mod.js';
 
 // Create a zero-filled array:
 var x = zeros( 4, 'complex128' );
