@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-nans-like/tags). For example,
+
+```javascript
 import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@v0.0.1-deno/mod.js';
 ```
 
@@ -99,7 +104,7 @@ var arr = nansLike( x, 'float32' );
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-float-dtypes@deno/mod.js';
 import zeros from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@deno/mod.js';
-import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@v0.0.1-deno/mod.js';
+import nansLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@deno/mod.js';
 
 // Create a zero-filled array:
 var x = zeros( 4, 'complex128' );
