@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-nans-like
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-nansLike = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var nansLike = require( 'path/to/vendor/umd/array-nans-like/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.nansLike;
-})();
-</script>
+var nansLike = require( '@stdlib/array-nans-like' );
 ```
 
 #### nansLike( x\[, dtype] )
@@ -131,15 +123,10 @@ var arr = nansLike( x, 'float32' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-float-dtypes@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-zeros@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-nans-like@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var dtypes = require( '@stdlib/array-typed-float-dtypes' );
+var zeros = require( '@stdlib/array-zeros' );
+var nansLike = require( '@stdlib/array-nans-like' );
 
 // Create a zero-filled array:
 var x = zeros( 4, 'complex128' );
@@ -154,11 +141,6 @@ for ( i = 0; i < dt.length; i++ ) {
     y = nansLike( x, dt[ i ] );
     console.log( y );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -261,13 +243,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/array/full-like]: https://github.com/stdlib-js/array-full-like/tree/umd
+[@stdlib/array/full-like]: https://github.com/stdlib-js/array-full-like
 
-[@stdlib/array/nans]: https://github.com/stdlib-js/array-nans/tree/umd
+[@stdlib/array/nans]: https://github.com/stdlib-js/array-nans
 
-[@stdlib/array/ones-like]: https://github.com/stdlib-js/array-ones-like/tree/umd
+[@stdlib/array/ones-like]: https://github.com/stdlib-js/array-ones-like
 
-[@stdlib/array/zeros-like]: https://github.com/stdlib-js/array-zeros-like/tree/umd
+[@stdlib/array/zeros-like]: https://github.com/stdlib-js/array-zeros-like
 
 <!-- </related-links> -->
 
