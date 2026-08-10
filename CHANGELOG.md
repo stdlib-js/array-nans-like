@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-27)
+## Unreleased (2026-08-10)
+
+<section class="features">
+
+### Features
+
+-   [`bd39888`](https://github.com/stdlib-js/stdlib/commit/bd3988874fec8e11dcb2ea04afc3e9c2a45207e5) - add float16 dtype support to `array/nans-like` [(#14122)](https://github.com/stdlib-js/stdlib/pull/14122)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`bd39888`](https://github.com/stdlib-js/stdlib/commit/bd3988874fec8e11dcb2ea04afc3e9c2a45207e5) - **feat:** add float16 dtype support to `array/nans-like` [(#14122)](https://github.com/stdlib-js/stdlib/pull/14122) _(by Gururaj Gurram, Athan Reines)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5706abd`](https://github.com/stdlib-js/stdlib/commit/5706abd84b709abebb6ac0721cf6cc5caded2906) - **refactor:** clean-up dtype validation logic _(by Athan Reines)_
 
@@ -25,9 +36,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 -   Philipp Burckhardt
 
 </section>
